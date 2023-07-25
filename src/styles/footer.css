@@ -1,0 +1,21 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4.6875rem 0 3.125rem;
+    padding: 2.8125rem 0;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+footer > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+}
+footer > div > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: flex-start;
+    gap: 0.9375rem;
+}

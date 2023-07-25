@@ -1,0 +1,25 @@
+#banner {
+    display: flex;
+    justify-content: space-between;
+    gap: 6.25rem;
+    margin-bottom: 4.6875rem;
+}
+#banner > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.625rem;
+}
+#banner > div > span {
+    color: var(--color-primary);
+}
+#banner > div > h1 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;    
+}
+#banner > div > button {
+    width: fit-content;
+    border: 1px solid #000;
+}

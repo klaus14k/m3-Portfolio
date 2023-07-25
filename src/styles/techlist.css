@@ -1,0 +1,13 @@
+#techlist {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.9375rem;
+    margin: 2.5rem 0 5rem;
+}
+.techlist-item {
+    display: flex;
+    align-items: center;
+    gap: 1.5625rem;
+    width: 287px;
+    height: 86px;
+}

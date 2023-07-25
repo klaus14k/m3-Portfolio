@@ -1,0 +1,30 @@
+#projectlist {
+    margin: 2.5rem 0 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5625rem;
+}
+.projectlist-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 439px;
+    height: 183px;
+}
+.projectlist-items > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.projectlist-items > div > h3 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.projectlist-items > a {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}

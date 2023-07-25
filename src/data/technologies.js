@@ -4,8 +4,8 @@ import jsIcon from "../assets/js-icon.png";
 import reactIcon from "../assets/react-icon.png";
 
 export const technologies = [
-  { name: "HTML", img: htmlIcon },
-  { name: "CSS", img: cssIcon },
-  { name: "Javascript", img: jsIcon },
-  { name: "React", img: reactIcon },
+  { name: "HTML", img: htmlIcon, id: 0 },
+  { name: "CSS", img: cssIcon, id: 1 },
+  { name: "Javascript", img: jsIcon, id: 2 },
+  { name: "React", img: reactIcon, id: 3 },
 ];
